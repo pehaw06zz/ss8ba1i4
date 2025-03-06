@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+    }
+    .container {
+        width: 80%;
+        margin: auto;
+        position: relative;
+    }
+    .section-title {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: left;
+        border-bottom: 2px solid #e74c3c;
+        display: inline-block;
+        padding-bottom: 5px;
+    }
+    .features {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        margin-top: 40px;
+    }
+    .feature {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .icon-container {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #ccc;
+        transform: rotate(45deg);
+        position: relative;
+    }
+    .icon-container i {
+        font-size: 30px;
+        color: #e74c3c;
+        transform: rotate(-45deg);
+    }
+    .feature-content {
+        flex: 1;
+    }
+    .feature h3 {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .feature p {
+        font-size: 14px;
+        color: #666;
+    }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <h2 class="section-title">Erat Lacinia</h2>
+        <div class="features">
+            <div class="feature">
+                <div class="icon-container">
+                    <i class="fa-solid fa-diamond"></i>
+                </div>
+                <div class="feature-content">
+                    <h3>Portitor ullamcorper</h3>
+                    <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="icon-container">
+                    <i class="fa-solid fa-paper-plane"></i>
+                </div>
+                <div class="feature-content">
+                    <h3>Sapien vereros</h3>
+                    <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="icon-container">
+                    <i class="fa-solid fa-rocket"></i>
+                </div>
+                <div class="feature-content">
+                    <h3>Quam lorem ipsum</h3>
+                    <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="icon-container">
+                    <i class="fa-solid fa-chart-column"></i>
+                </div>
+                <div class="feature-content">
+                    <h3>Sed magna finibus</h3>
+                    <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
